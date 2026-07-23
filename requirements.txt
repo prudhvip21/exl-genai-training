@@ -1,0 +1,29 @@
+# === Core: Hugging Face / PyTorch (Parts 1, 2, 4) ===
+torch
+transformers>=4.41.2
+datasets>=2.18.0
+accelerate>=0.31.0
+sentencepiece
+evaluate
+
+# === LangChain (Part 3) ===
+langchain>=0.1.17
+langchain-openai>=0.1.6
+langchain-community
+
+# === OpenRouter client + token budgeting (Parts 2, 3, Token Budgeting) ===
+openai>=1.13.3
+tiktoken
+
+# === Fine-tuning: LoRA / QLoRA (Part 4) ===
+peft>=0.11.1
+bitsandbytes>=0.43.1
+trl>=0.9.4
+
+# === Grammar-constrained generation (Part 2, Section 5) ===
+# Needs a C++ build toolchain (cmake, a C compiler) on the VM to install.
+llama-cpp-python
+
+# === General ===
+numpy
+pandas
